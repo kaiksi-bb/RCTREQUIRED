@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/kaiksi-bb/RCTREQUIRED'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { 'Your Name' => 'Bug Bounty Security Researcher' }
-  spec.source       = { :git => 'https://github.com/yourname/RCTREQUIRED.git', :tag => spec.version.to_s }
+  spec.source       = { :git => 'https://github.com/kaiksi-bb/RCTREQUIRED.git', :tag => spec.version.to_s }
 
   spec.ios.deployment_target = '10.0'
   spec.source_files = 'RCTREQUIRED/**/*.{swift}'
